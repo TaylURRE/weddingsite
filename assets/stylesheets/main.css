@@ -1,92 +1,94 @@
-html, body, h1, h2, h3, h4, p, div{
-  padding:0;
+html, body, h1, h2, h3, h4, p, div {
+  padding: 0;
   border: 0;
   margin: 0;
-  font:inherit;
+  font: inherit;
   font-size: 16px;
   font-family: 'Shadows Into Light';
   line-height: 1.5;
 }
-p{
+
+p {
   font-family: sans-serif;
 }
+
 /*playfair display and roboto condensed as the fonts
  20px- 1.25em
  16px- 1em font
  Colors
  df*/
 
-section.home{
+section.home {
   background-color: grey;
 }
 
-.wedding figure{
-  display:block;
+.wedding figure {
+  display: block;
   width: 320px;
   margin: 0 auto;
 }
 
-.wedding figcaption{
-  display:block;
+.wedding figcaption {
+  display: block;
   width: 400px;
   margin: 0 auto;
- }
+}
 
-img{
+img {
   display: block;
 }
 
-img.randt{
+img.randt {
   border: 8px solid;
   border-color: #B3F6DC;
   margin-bottom: 25px;
   margin-top: 18px;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
-  height:auto;
+  width: 50%;
+  height: auto;
 }
 
-img.logo{
-  margin-left:auto;
+img.logo {
+  margin-left: auto;
   margin-right: auto;
-  width:50%;
+  width: 50%;
   height: auto;
   padding-bottom: 18px;
   padding-top: 18px;
 }
 
-header{
+header {
   border-color: #B3F6DC;
   border-width: medium;
 }
 
-section.ourstory{
+section.ourstory {
   padding-top: 50px;
-  padding-right:500px;
-  padding-left:30px;
+  padding-right: 500px;
+  padding-left: 30px;
 }
 
-section.bridalparty{
-  background-color:#eaeaea;
+section.bridalparty {
+  background-color: #eaeaea;
 }
 
-section.aboutus, section.wedding{
-  height:auto;
+section.aboutus, section.wedding {
+  height: auto;
   background-color: #B3F6DC;
 }
 
-h1{
+h1 {
   font-family: 'Playfair Display';
   font-size: 1.75em;
 }
 
-h1 a{
+h1 a {
   text-decoration: none;
-  color:#515151;
+  color: #515151;
 }
 
-ul.column-two , ul.column-one{
+ul.column-two, ul.column-one {
   display: inline-block;
   width: 40%;
   text-decoration: none;
@@ -94,12 +96,20 @@ ul.column-two , ul.column-one{
   margin-top: 75px;
 }
 
+<<<<<<< HEAD:master.css
 
 .column-one li figure, .column-two{
+=======
+ul.column-two {
+  margin-top: 0;
+}
+
+.column-one li figure, .column-two {
+>>>>>>> 092ba086f64f184b356081a2274422d1f7749660:assets/stylesheets/main.css
   flex: 1;
 }
 
-.column-one li figcaption, .column-two li figcaption{
+.column-one li figcaption, .column-two li figcaption {
   flex: 3;
 }
 
@@ -109,7 +119,7 @@ ul.column-two , ul.column-one{
   border-radius: 50%;
 }
 
-.column-one li, .column-two li{
+.column-one li, .column-two li {
   display: flex;
   align-items: center;
   padding-right: 0px;
@@ -118,98 +128,104 @@ ul.column-two , ul.column-one{
   width: 500px;
 }
 
-.column-one h2,.column-two h2{
+.column-one h2, .column-two h2 {
   text-align: center;
   font-size: 1.5em;
 }
 
-.column-one h2:hover,.column-two h2:hover{
-color:#ffffff;
-background-color: grey;
+.column-one h2:hover, .column-two h2:hover {
+  color: #ffffff;
+  background-color: grey;
 }
 
+<<<<<<< HEAD:master.css
 .column-one, .column-two{
   vertical-align: top;
 }
 
 .bridalparty h1{
+=======
+.bridalparty h1 {
+>>>>>>> 092ba086f64f184b356081a2274422d1f7749660:assets/stylesheets/main.css
   background-color: #B3F6DC;
   width: 500px;
   text-align: center;
   margin-top: 50px;
 }
 
-#story p{
+#story p {
   text-align: justify;
   padding-bottom: 1em;
 }
 
-div#story{
-  text-align: center;
-  width:80%;
-  margin:auto;
-}
-
-#story h1{
-  text-align: left;
-  padding-top: 1em;
-}
-
-.home-nav{
-  text-align: center;
-  padding: 0;
-}
-
-.home-nav li{
-  text-align: center;
-  list-style: none;
-  display: inline-block;
-}
-
-.home-nav li a{
-  display: block;
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration:none;
-}
-
-.home-nav li a:hover{
-  color:#DAA520;
-  text-decoration: underline;
-}
-
-section{
-  padding: 1em 0;
-  width: 100%;
-}
-section.aboutus{
-  padding: 1em;
-}
-#image-list li{
-  display: inline-block;
-  text-align: center;
-  padding: 0;
-  margin:0px 0px;
-  text-decoration: none;
-}
-
-#image-list ul{
-margin:auto;
-}
-
-#image-list{
+div#story {
   text-align: center;
   width: 80%;
   margin: auto;
 }
 
-#image-list img:hover{
- opacity: .5;
+#story h1 {
+  text-align: left;
+  padding-top: 1em;
 }
 
-header h1{
+.home-nav {
+  text-align: center;
+  padding: 0;
+}
+
+.home-nav li {
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+
+.home-nav li a {
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.home-nav li a:hover {
+  color: #DAA520;
+  text-decoration: underline;
+}
+
+section {
+  padding: 1em 0;
+  width: 100%;
+}
+
+section.aboutus {
+  padding: 1em;
+}
+
+#image-list li {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0px 0px;
+  text-decoration: none;
+}
+
+#image-list ul {
+  margin: auto;
+}
+
+#image-list {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#image-list img:hover {
+  opacity: .5;
+}
+
+header h1 {
   text-align: center;
   font-family: 'Shadows Into Light';
   color: #ffffff;
@@ -217,12 +233,12 @@ header h1{
   font-weight: 100;
 }
 
-header h2{
+header h2 {
   text-align: center;
-  font-family:'Shadows Into Light';
+  font-family: 'Shadows Into Light';
   color: #ffffff;
-  font-size:1.3em;
-  font-weight:100;
+  font-size: 1.3em;
+  font-weight: 100;
 }
 
 
