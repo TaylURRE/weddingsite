@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, p, div{
+sshtml, body, h1, h2, h3, h4, p, div{
   padding:0;
   border: 0;
   margin: 0;
@@ -19,18 +19,6 @@ p{
 section.home{
   background-color: grey;
 }
-
-.wedding figure{
-  display:block;
-  width: 320px;
-  margin: 0 auto;
-}
-
-.wedding figcaption{
-  display:block;
-  width: 400px;
-  margin: 0 auto;
- }
 
 img{
   display: block;
@@ -61,7 +49,7 @@ header{
   border-width: medium;
 }
 
-section.ourstory{
+section.ourstory, section.wedding{
   padding-top: 50px;
   padding-right:500px;
   padding-left:30px;
@@ -88,15 +76,15 @@ h1 a{
 
 ul.column-two , ul.column-one{
   display: inline-block;
-  width: 40%;
   text-decoration: none;
   padding-left: 110px;
-  margin-top: 75px;
+  margin: 0px;
+  padding-top: 50px;
+  text-align: center;
+  width:35%;
+  vertical-align: top;
 }
 
-ul.column-two{
-  margin-top: 0;
-}
 .column-one li figure, .column-two{
   flex: 1;
 }
@@ -221,4 +209,20 @@ header h2{
   color: #ffffff;
   font-size:1.3em;
   font-weight:100;
+}
+
+#map{
+  width: 50%;
+  height: 400px;
+  background-color: grey;
+  margin:0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px
+      }
+
+#ceremonyDetails{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width:50%;
 }

@@ -57,20 +57,19 @@
   </section>
 
   <section class='bridalparty' id="targettwo">
-    <h1><a href='#targetzero'>Meet the Party<a></h1>
+    <h1><a href='#targetzero'>Meet the Party</a></h1>
     <ul class='column-one'>
       <h2>Bridesmaids</h2>
-
       <li>
         <figure>
           <img src='Shelby.jpg' alt='Shelby' class='profile-photo'>
         </figure>
-
         <figcaption>
           <h3>Shelby Stallworth</h3>
           <p>Maid of Honor | Sister of the Bride</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
           <img src='Cayse.jpg' alt='Cayse' class='profile-photo'>
@@ -79,9 +78,8 @@
           <h3>Cayse Stallworth</h3>
           <p>Maid of Honor | Sister of the Bride</p>
         </figcaption>
-
-
       </li>
+
       <li>
         <figure>
           <img src='Amy.jpg' alt='Amy' class='profile-photo'>
@@ -90,8 +88,8 @@
           <h3>Amy Brown</h3>
           <p>Bridesmaid | Friend of the Bride</p>
         </figcaption>
-
       </li>
+
       <li>
         <figure>
           <img src='Shannon.jpg' alt='Shannon' class='profile-photo'>
@@ -100,8 +98,8 @@
           <h3>Shannon Weiss</h3>
           <p>Bridesmaid | Friend of the Bride</p>
         </figcaption>
-
       </li>
+
       <li>
         <figure>
           <img src='Tracy.jpg' alt='Tracy' class='profile-photo'>
@@ -111,6 +109,8 @@
           <p>Bridesmaid | Friend of the Bride</p>
         </figcaption>
       </li>
+    </ul>
+
       <!-- <h2>Flower Girl and Ring Bearer</h2>
       <li>
         <figure>
@@ -132,19 +132,19 @@
       </li>
   -->
 
-    </ul>
 
     <ul class='column-two'>
           <h2>Groomsmen</h2>
       <li>
         <figure>
-          <img src='http://placehold.it/300' alt='Emmy' class='profile-photo'>
+          <img src='Marseille.jpg' alt='Marseille' class='profile-photo'>
         </figure>
         <figcaption>
-          <h3>Emmy Arbuckle</h3>
+          <h3>Marseille Arbuckle</h3>
           <p>Best Man | Uncle of the Groom</p>
         </figcaption>
       </li>
+
       <li>
          <figure>
           <img src='http://placehold.it/300' alt='Andre' class='profile-photo'>
@@ -154,33 +154,37 @@
           <p>Groomsmen | Cousin of the Groom</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
-        <img src='http://placehold.it/300' alt='Aaron' class='profile-photo'>
+        <img src='Aaron.jpg' alt='Aaron' class='profile-photo'>
         </figure>
         <figcaption>
           <h3>Aaron Sanders</h3>
           <p>Groomsmen | Fraternity Brother</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
-          <img src='http://placehold.it/300' alt='Jesse' class='profile-photo'>
+          <img src='Jesse.jpg' alt='Jesse' class='profile-photo'>
         </figure>
         <figcaption>
           <h3> Jesse Giles</h3>
           <p> Groomsmen | Friend of the Groom</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
-          <img src='http://placehold.it/300' alt='Justin' class='profile-photo'>
+          <img src='Justin.jpg' alt='Justin' class='profile-photo'>
         </figure>
         <figcaption>
           <h3>Justin Stallworth</h3>
           <p>Groomsmen | Brother of the Bride</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
           <img src='http://placehold.it/300' alt='Noah' class='profile-photo'>
@@ -190,6 +194,7 @@
           <p> Junior Groomsmen | Brother of the Groom</p>
         </figcaption>
       </li>
+
       <li>
         <figure>
           <img src='http://placehold.it/300' alt='Jonah' class='profile-photo'>
@@ -204,15 +209,15 @@
 
   <section class='wedding' id="targetthree">
     <h1><a href='#targetzero'>Wedding Day and Accomodations</a></h1>
+       <div id= "map">
+       </div>
+       <div id= 'ceremonyDetails'>
+          <h2>Ceremony and Reception Location</h2>
+          <h3>Greenhouse Lofts 2545 W. Diversey Ave. Chicago,IL 60647</h3>
+          <p>  Directions: Located 10 minutes from downtown, inside the Green Exchange building, which is located just of the Diversey Ave. exit of The Kennedy Expressway, I-90/94.</p>
+      </div>
       <div>
-      <figure> <img src='http://placehold.it/300' alt='Aaron' class='profile-photo'>
-      </figure>
-      <figcaption>
-        <h2>Ceremony and Reception Location</h2>
-        <h3>Greenhouse Lofts 2545 W. Diversey Ave. Chicago,IL 60647</h3>
-        <p>  Directions: Located 10 minutes from downtown, inside the Green Exchange building, which is located just of the Diversey Ave. exit of The Kennedy Expressway, I-90/94.</p>
-      </figcaption>
-      <figure> <img src='http://placehold.it/300' alt='Aaron' class='profile-photo'>
+      <figure> <img src='http://placehold.it/300' alt='aloft' class='hotel'>
       </figure>
       <figcaption>
         <h2>Hotel Accomdations</h2>
@@ -232,6 +237,22 @@
   <footer>
     All Rights Reserved. &copy;2017
   </footer>
+  <script>
+  function initMap() {
+    var uluru = {lat: 41.9316277, lng: -87.69207770000003};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqai3dePw0KLlvdSW1VThjvIoAD5q5Uho&callback=initMap">
+  </script>
 </body>
 
 </html>
