@@ -94,9 +94,7 @@ ul.column-two , ul.column-one{
   margin-top: 75px;
 }
 
-ul.column-two{
-  margin-top: 0;
-}
+
 .column-one li figure, .column-two{
   flex: 1;
 }
@@ -128,6 +126,10 @@ ul.column-two{
 .column-one h2:hover,.column-two h2:hover{
 color:#ffffff;
 background-color: grey;
+}
+
+.column-one, .column-two{
+  vertical-align: top;
 }
 
 .bridalparty h1{
@@ -221,4 +223,12 @@ header h2{
   color: #ffffff;
   font-size:1.3em;
   font-weight:100;
+}
+
+
+ hr{
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -3px #848482 inset;nt-size: 18px;
+  margin:0;
 }
