@@ -64,8 +64,7 @@ header {
 }
 
 
-section.ourstory, section.wedding{
- {
+section.ourstory, section.wedding {
   padding-top: 50px;
   padding-right: 500px;
   padding-left: 30px;
@@ -101,21 +100,11 @@ ul.column-two, ul.column-one {
   vertical-align: top;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:master.css
-
 .column-one li figure, .column-two{
-=======
-ul.column-two {
-=======
-.column-one li figure, .column-two{
-{
->>>>>>> 90bc99d0d6516868cb95e627ed9582bbf99bc553
   margin-top: 0;
 }
 
 .column-one li figure, .column-two {
->>>>>>> 092ba086f64f184b356081a2274422d1f7749660:assets/stylesheets/main.css
   flex: 1;
 }
 
@@ -148,15 +137,11 @@ ul.column-two {
   background-color: grey;
 }
 
-<<<<<<< HEAD:master.css
-.column-one, .column-two{
+.column-one, .column-two {
   vertical-align: top;
 }
 
-.bridalparty h1{
-=======
 .bridalparty h1 {
->>>>>>> 092ba086f64f184b356081a2274422d1f7749660:assets/stylesheets/main.css
   background-color: #B3F6DC;
   width: 500px;
   text-align: center;
@@ -204,15 +189,6 @@ div#story {
   text-decoration: underline;
 }
 
-section {
-  padding: 1em 0;
-  width: 100%;
-}
-
-section.aboutus {
-  padding: 1em;
-}
-
 #image-list li {
   display: inline-block;
   text-align: center;
@@ -251,15 +227,14 @@ header h2 {
   font-weight: 100;
 }
 
-<<<<<<< HEAD
-
  hr{
   height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -3px #848482 inset;nt-size: 18px;
   margin:0;
-=======
-#map{
+}
+
+#map {
   width: 50%;
   height: 400px;
   background-color: grey;
@@ -268,10 +243,51 @@ header h2 {
   margin-bottom: 20px
       }
 
-#ceremonyDetails{
+#ceremonyDetails {
   display: block;
   margin: 0 auto;
   text-align: center;
   width:50%;
->>>>>>> 90bc99d0d6516868cb95e627ed9582bbf99bc553
 }
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand img {
+height: 40px;
+width: auto;
+}
+
+.nav-pills li {
+  background-color: #2BBBAD;
+  color: grey;
+}
+
+.nav-pills li a {
+  color: #D5EDE6;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.navbar-fixed-top {
+    border-bottom: 0px;
+}
+
+ul.nav.nav-pills.pull-right {
+  margin-bottom: 0px;
+}
+
+section#targetone {
+  background-color:  #B3F6DC;
+  padding-bottom: 50px;
+}
+
+section#targetzero {
+  padding-top: 110px;
+  padding-bottom: 20px;
+}
+
+section#targettwo {
+padding-top: 20px;}
