@@ -64,20 +64,6 @@ header {
 }
 
 
-section.ourstory, section.wedding {
-  padding-top: 50px;
-  padding-right: 500px;
-  padding-left: 30px;
-}
-
-section.bridalparty {
-  background-color: #eaeaea;
-}
-
-section.aboutus, section.wedding {
-  height: auto;
-  background-color: #B3F6DC;
-}
 
 h1 {
   font-family: 'Playfair Display';
@@ -92,7 +78,7 @@ h1 a {
 ul.column-two, ul.column-one {
   display: inline-block;
   text-decoration: none;
-  padding-left: 110px;
+  padding-left: 0px;
   margin: 0px;
   padding-top: 50px;
   text-align: center;
@@ -149,19 +135,15 @@ ul.column-two, ul.column-one {
 }
 
 #story p {
-  text-align: justify;
+  text-align: left;
   padding-bottom: 1em;
-}
-
-div#story {
-  text-align: center;
-  width: 80%;
-  margin: auto;
 }
 
 #story h1 {
   text-align: left;
   padding-top: 1em;
+  font-family: Helvetica;
+  font-size: 2em;
 }
 
 .home-nav {
@@ -187,28 +169,6 @@ div#story {
 .home-nav li a:hover {
   color: #DAA520;
   text-decoration: underline;
-}
-
-#image-list li {
-  display: inline-block;
-  text-align: center;
-  padding: 0;
-  margin: 0px 0px;
-  text-decoration: none;
-}
-
-#image-list ul {
-  margin: auto;
-}
-
-#image-list {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
-
-#image-list img:hover {
-  opacity: .5;
 }
 
 header h1 {
@@ -256,24 +216,37 @@ nav {
 }
 
 .navbar-brand img {
-height: 40px;
+height: 44px;
 width: auto;
 }
 
+.navbar-brand {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+div.navbar-header {
+  align-content: center;
+  vertical-align: middle;
+}
+
 .nav-pills li {
-  background-color: #2BBBAD;
+  background-color: grey;
   color: grey;
 }
 
 .nav-pills li a {
-  color: #D5EDE6;
+  color: black;
   font-family: Helvetica;
   font-size: 16px;
 }
 
 .navbar-fixed-top {
     border-bottom: 0px;
+    background: black;
+    opacity: .40;
 }
+
 
 ul.nav.nav-pills.pull-right {
   margin-bottom: 0px;
@@ -291,3 +264,47 @@ section#targetzero {
 
 section#targettwo {
 padding-top: 20px;}
+
+.welcome {
+  background: url("/Users/TaylorStallworth/weddingsite/assets/images/rod-tay-main.jpg") center no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.welcome h2, .welcome h4 {
+  text-align: center;
+}
+
+.welcome h2 {
+    padding: 20% 3% 0;
+    font-size: 7rem;
+    color: coral;
+}
+
+.welcome h4 {
+    font-size: 3rem;
+    line-height: 2;
+    text-transform:lowercase;
+    letter-spacing: 2px;
+    padding: 0 10%;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display';
+    color:#454545;
+}
+
+.welcome h5 {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  padding: 0 10%;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: 'Playfair Display';
+  color:#454545;
+}
+
+div.col-xs-6.col-md-3 {
+  padding-bottom: 1.5em;
+}
