@@ -243,8 +243,7 @@ div.navbar-header {
 
 .navbar-fixed-top {
     border-bottom: 0px;
-    background: black;
-    opacity: .40;
+    opacity: .5;
 }
 
 
@@ -253,7 +252,7 @@ ul.nav.nav-pills.pull-right {
 }
 
 section#targetone {
-  background-color:  #B3F6DC;
+  background-color: #ffa482;
   padding-bottom: 50px;
 }
 
@@ -266,31 +265,42 @@ section#targettwo {
 padding-top: 20px;}
 
 .welcome {
-  background: url("/Users/TaylorStallworth/weddingsite/assets/images/rod-tay-main.jpg") center no-repeat;
-  background-size: cover;
-  height: auto;
+  background: url("/Users/TaylorStallworth/weddingsite/highlights/Rod-Tay(1of1)-4 copy 2.jpg") center no-repeat;
+background-size: cover;
+  height: 50em;
   width: 100%;
+  padding-top: 5.5%;
+  opacity: 0.8;
+   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .welcome h2, .welcome h4 {
   text-align: center;
+
 }
 
 .welcome h2 {
-    padding: 20% 3% 0;
-    font-size: 7rem;
-    color: coral;
+    padding: 25% 3% 0;
+    font-size: 5rem;
+    color: #e3cc6d;
+    letter-spacing: 5px;
+    font-family:  proxima-nova, sans-serif;
+    text-transform: uppercase;
 }
 
 .welcome h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2;
-    text-transform:lowercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     padding: 0 10%;
     margin-bottom: 0px;
-    font-family: 'Playfair Display';
-    color:#454545;
+    font-family: proxima-nova, sans-serif;
+    color: white;
+}
+
+.amp {
+    font-family: 'Lust';
 }
 
 .welcome h5 {
@@ -298,13 +308,37 @@ padding-top: 20px;}
   line-height: 1.5;
   text-transform: capitalize;
   letter-spacing: 3px;
-  padding: 0 10%;
+  padding: 0 auto 20% auto;
   margin-bottom: 100px;
   text-align: center;
-  font-family: 'Playfair Display';
-  color:#454545;
+  font-family: 'Lust';
+  color: white;
 }
 
 div.col-xs-6.col-md-3 {
   padding-bottom: 1.5em;
+}
+.welcome::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+img.responsive {
+  border-radius: 25px;
+  opacity: 0.75;
+     filter: alpha(opacity=75); /* For IE8 and earlier */
+  }
+}
+
+img.responsive:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+
+}
+
+h1 a{
+  font-family: 'Lust';
+  font-size: 3rem;
+  color: white;
 }
