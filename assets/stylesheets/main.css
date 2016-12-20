@@ -293,3 +293,7 @@ img.responsive:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+
+section#targetthree {
+    background-color: #B3F6DC;
+}
