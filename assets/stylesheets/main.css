@@ -1,3 +1,5 @@
+@media only screen and (max-width: 500px) {}
+
 html, body, h1, h2, h3, h4, p, div {
   padding: 0;
   border: 0;
@@ -7,6 +9,10 @@ html, body, h1, h2, h3, h4, p, div {
   font-family: proxima-nova, sans-serif;
   line-height: 1.5;
   color: #605e5e;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 p {
@@ -56,12 +62,12 @@ h1 a:hover {
 
 .welcome {
   background: url("/Users/TaylorStallworth/weddingsite/highlights/Rod-Tay(1of1)-4 copy 2.jpg") center no-repeat;
-background-size: cover;
+  background-size: cover;
   height: 50em;
   width: 100%;
   padding-top: 5.5%;
   opacity: 0.8;
-   filter: alpha(opacity=80); /* For IE8 and earlier */
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .welcome h2, .welcome h4 {
@@ -109,6 +115,7 @@ background-size: cover;
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 img.logo {
@@ -146,7 +153,7 @@ ul.column-two, ul.column-one {
 
 .column-one li img, .column-two li img {
   margin-right: 10px;
-  width: 150px;
+  width: 30%;
   border-radius: 50%;
 }
 
@@ -156,7 +163,7 @@ ul.column-two, ul.column-one {
   padding-right: 0px;
   margin-bottom: 0px;
   text-align: left;
-  width: 500px;
+  /*width: 500px;*/
 }
 
 .column-one h2, .column-two h2 {
