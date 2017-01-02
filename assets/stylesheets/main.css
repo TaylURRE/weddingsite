@@ -76,12 +76,14 @@ h1 a:hover {
 }
 
 .welcome h2 {
-    padding: 25% 3% 0;
-    font-size: 5rem;
-    color: #e3cc6d;
-    letter-spacing: 5px;
-    font-family:  proxima-nova, sans-serif;
-    text-transform: uppercase;
+  padding-top: 50%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 30px;
+  color: #e3cc6d;
+  letter-spacing: 5px;
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase;
 }
 
 .welcome h4 {
@@ -135,15 +137,15 @@ ul.column-two, ul.column-one {
   padding-top: 50px;
   margin: 0px;
   text-align: center;
-  width:40%;
+  /*width:40%;*/
   vertical-align: top;
 }
 
-.column-one li figure, .column-two{
+.column-one li figure, .column-two li figure{
   margin-top: 0;
 }
 
-.column-one li figure, .column-two {
+.column-one li figure, .column-two li figure{
   flex: 1;
 }
 
@@ -153,7 +155,7 @@ ul.column-two, ul.column-one {
 
 .column-one li img, .column-two li img {
   margin-right: 10px;
-  width: 30%;
+  /*width: 30%;*/
   border-radius: 50%;
 }
 
@@ -184,7 +186,7 @@ ul.column-two, ul.column-one {
 
 .bridalparty h1 {
   background-color: #B3F6DC;
-  width: 500px;
+  /*width: 500px;*/
   text-align: center;
   margin-top: 50px;
 }
@@ -303,4 +305,8 @@ img.responsive:hover {
 
 section#targetthree {
     background-color: #B3F6DC;
+}
+
+.row {
+  margin: auto 0px;
 }
