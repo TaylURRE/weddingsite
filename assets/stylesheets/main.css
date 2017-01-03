@@ -71,19 +71,22 @@ h1 a:hover {
 }
 
 .welcome h2, .welcome h4 {
-  text-align: center;
+  /*text-align: center;*/
 
 }
 
 .welcome h2 {
-  padding-top: 50%;
-  padding-right: 10%;
-  padding-left: 10%;
-  font-size: 30px;
+  font-size: 40px;
   color: #e3cc6d;
   letter-spacing: 5px;
   font-family: proxima-nova, sans-serif;
   text-transform: uppercase;
+}
+
+div.container#details{
+  padding-top: 40%;
+  text-align: right;
+  margin-right: 0;
 }
 
 .welcome h4 {
@@ -91,10 +94,17 @@ h1 a:hover {
     line-height: 2;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 0 10%;
     margin-bottom: 0px;
     font-family: proxima-nova, sans-serif;
     color: white;
+}
+
+
+@media (max-width: 415px){
+  div.container#details{
+    padding-top: 90%;
+    text-align: right;
+  }
 }
 
 .amp {
@@ -102,15 +112,12 @@ h1 a:hover {
 }
 
 .welcome h5 {
-  font-size: 2rem;
-  line-height: 1.5;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  padding: 0 auto 20% auto;
-  margin-bottom: 100px;
-  text-align: center;
-  font-family: 'Lust';
-  color: white;
+  font-size: 22px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-family: 'Lust';
+    color: white;
 }
 
 /*Images*/
@@ -228,7 +235,7 @@ hr {
 }
 
 nav {
-  padding-top: 15px;
+  : 15px;
   padding-bottom: 5px;
 }
 
