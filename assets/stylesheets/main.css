@@ -61,7 +61,7 @@ h1 a:hover {
 /*Welcome Page*/
 
 .welcome {
-  background: url("/Users/TaylorStallworth/weddingsite/highlights/Rod-Tay(1of1)-4 copy 2.jpg") center no-repeat;
+  background: url("https://docs.google.com/drawings/d/11W7xkgYN4ArQSnFrrTCSoMIgF2lwNDUp0Bwdrm_7nT0/pub?w=3600&h=2400") center no-repeat;
   background-size: cover;
   height: 50em;
   width: 100%;
@@ -84,7 +84,7 @@ h1 a:hover {
 }
 
 div.container#details{
-  padding-top: 40%;
+  padding-top: 25%;
   text-align: right;
   margin-right: 0;
 }
