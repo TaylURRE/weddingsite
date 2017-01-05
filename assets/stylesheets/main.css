@@ -24,8 +24,6 @@ h1 a:hover {
   color:white;
 }
 
-
-
 /*Navigation Bar*/
 
 .home-nav {
@@ -243,9 +241,8 @@ div.col-xs-6.col-md-3 {
   /*text-align: center;*/
 }
 
-h3, h4.center, h2.center {
-  text-align: center;
-
+h4.center, h2.center {
+  text-align:center;
 }
 h2.center.addBorder {
   text-align: center;
@@ -305,10 +302,12 @@ section#targettwo {
 
 section#targetthree {
     background-color: #DCDCDC;
+    padding-bottom: 20px;
 }
 
 section#targetfour {
   background-color: #ffa482;
+  padding-bottom: 20px;
 }
 
 
@@ -323,7 +322,7 @@ section#targetfour {
   margin:0;
 }*/
 
-.modal-body{
+.modal-body {
   max-width: 100%;
 }
 
@@ -331,6 +330,15 @@ section#targetfour {
   margin: 0px;
 }
 
+.btn a {
+  text-decoration: none;
+  color:white !important;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+}
 @media (max-width: 415px){
     div.container#details{
       padding-top: 90%;
@@ -343,7 +351,4 @@ section#targetfour {
   width:80%;
 }
 
-img.profile-photo {
-  width: 100%;
-}
   }
