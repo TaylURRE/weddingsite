@@ -149,7 +149,7 @@ ul.column-two, ul.column-one {
 
 .column-one li figure, .column-two li figure{
   margin-top: 0;
-  width:300px;
+  /*width:300px;*/
 }
 
 .column-one li figure, .column-two li figure{
@@ -172,7 +172,7 @@ ul.column-two, ul.column-one {
   padding-right: 0px;
   margin-bottom: 0px;
   text-align: left;
-  width: 350px;
+  /*width: 350px;*/
 }
 
 .column-one h2, .column-two h2 {
