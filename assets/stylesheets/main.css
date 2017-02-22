@@ -319,7 +319,22 @@ section#targetfour {
   padding-bottom: 20px;
 }
 
+/*Registry*/
 
+.registry-list li {
+  list-style: none;
+  text-align: center;
+}
+
+.registry-list li a {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.registry-list li a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 /*tidbits*/
 
 
