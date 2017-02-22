@@ -339,9 +339,14 @@ section#targetfour {
   margin: 0px;
 }
 
-.btn a {
-  text-decoration: none;
-  color:white !important;
+a.btn {
+  background-color: #ffa482;
+  color: #ffffff;
+}
+
+a.btn:hover {
+  background-color: #ffffff;
+  color: #ffa482;
 }
 
 footer {
