@@ -23,5 +23,8 @@
     "gulp-mustache": "^2.3.0",
     "gulp-postcss": "^6.2.0",
     "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "middleman": "^0.1.0"
   }
 }
