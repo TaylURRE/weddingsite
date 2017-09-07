@@ -22,6 +22,16 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+
+  activate :asset_host, :host => '//taylorandrodney.us'
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
