@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <%= partial "_partials/head" %>
+  <body class="<%= page_classes %>">
+    <%= partial "_partials/header" %>
+    <main>
+      <%= yield %>
+    </main>
+    <%= partial "_partials/footer" %>
+    <%= partial "_partials/foot" %>
+  </body>
+</html>
