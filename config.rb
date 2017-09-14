@@ -15,7 +15,8 @@ page '/*.txt', layout: false
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.remote   = 'https://github.com/TaylURRE/weddingsite.git' # remote name or git url, default: origin
+  deploy.branch = 'master'
+  deploy.remote   = 'https://github.com/TaylURRE/weddingsite.git' # remote name or git url,default: origin
 end
 
 configure :build do
